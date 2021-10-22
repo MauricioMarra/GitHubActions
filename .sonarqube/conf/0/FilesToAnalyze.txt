@@ -1,0 +1,4 @@
+﻿C:\Users\mauricio\Documents\GitHub\GitHubActions\ConsoleApp\Program.cs
+C:\Users\mauricio\Documents\GitHub\GitHubActions\ConsoleApp\Dockerfile
+C:\Users\mauricio\Documents\GitHub\GitHubActions\ConsoleApp\Properties\launchSettings.json
+C:\Users\mauricio\Documents\GitHub\GitHubActions\.dockerignore

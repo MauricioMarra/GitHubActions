@@ -1,0 +1,1 @@
+C:\Users\mauricio\Documents\GitHub\GitHubActions\.sonarqube\out\0
