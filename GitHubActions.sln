@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{2C15E439-EA7B-414A-BE0D-327CE8D385EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{2C15E439-EA7B-414A-BE0D-327CE8D385EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker-compose", "docker-compose", "{8C0B8D89-C89C-4B52-B46F-5106D93238AE}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIPrincipal", "APIPrincipal\APIPrincipal.csproj", "{CC20029B-8A7C-4FC0-BBDF-6AAD0258FA23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIConsulta", "APIConsulta\APIConsulta.csproj", "{57AD09DD-D3AF-4554-8F16-D0875F1C1CA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extra", "Extra", "{95C34BC6-4041-411D-93ED-043714DD64FC}"
+	ProjectSection(SolutionItems) = preProject
+		Pendencias.txt = Pendencias.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +29,14 @@ Global
 		{2C15E439-EA7B-414A-BE0D-327CE8D385EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C15E439-EA7B-414A-BE0D-327CE8D385EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C15E439-EA7B-414A-BE0D-327CE8D385EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC20029B-8A7C-4FC0-BBDF-6AAD0258FA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC20029B-8A7C-4FC0-BBDF-6AAD0258FA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC20029B-8A7C-4FC0-BBDF-6AAD0258FA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC20029B-8A7C-4FC0-BBDF-6AAD0258FA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57AD09DD-D3AF-4554-8F16-D0875F1C1CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AD09DD-D3AF-4554-8F16-D0875F1C1CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AD09DD-D3AF-4554-8F16-D0875F1C1CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AD09DD-D3AF-4554-8F16-D0875F1C1CA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,4 +11,7 @@ obj/
 /node_modules
 /wwwroot/node_modules
 
+#MyConfig
+Extra/
+
 # End of https://www.toptal.com/developers/gitignore/api/dotnetcore
